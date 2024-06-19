@@ -4,9 +4,3 @@ function multiply(a, b) {
 
 export default multiply;
 
-// git add filename or .
-// git commit -m ""
-// git push
-
-
-// git pull
