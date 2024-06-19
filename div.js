@@ -1,3 +1,3 @@
-function div(a, b) {
+function divdend(a, b) {
   return a / b;
 }
