@@ -1,5 +1,5 @@
 function divdend(a, b) {
   return a / b;
 }
-
-export default divdend; 
+console.log("Divdend file.");
+export default divdend;
