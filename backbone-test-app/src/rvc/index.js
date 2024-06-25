@@ -1,10 +1,10 @@
 import $ from "jquery";
 import Backbone from "backbone";
-import LoginView from "./views/loginView.js";
-import MainView from "./views/mainView.js";
-import SignupView from "./views/signupView.js";
+import LoginView from "./views/loginView";
+import MainView from "./views/mainView";
+import SignupView from "./views/signupView";
 import "./styles/main.css";
-console.log("Hello from Webpack in Index.js!");
+console.log("Hello from Webpack in Index JS!");
 
 $(document).ready(() => {
   const mainView = new MainView();

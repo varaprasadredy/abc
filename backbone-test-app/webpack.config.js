@@ -22,6 +22,9 @@ export default {
         use: {
           loader: "babel-loader",
         },
+        resolve: {
+          fullySpecified: false, // Disable the fully specified rule
+        },
       },
       {
         test: /\.css$/,
@@ -64,6 +67,11 @@ export default {
     port: 9000,
   },
   resolve: {
-    extensions: [".js"],
+    extensions: [".js", ".css", ".html", ".json", ".mjs"],
+    // alias: {
+    //   views: resolve(__dirname, "src/rvc/views"),
+    //   index: resolve(__dirname, "src/rvc/index.js"), // You can set up aliases to make importing easier
+    //   app: resolve(__dirname, "src/rvc/app.js"), // You can set up aliases to make importing easier
+    // },
   },
 };
